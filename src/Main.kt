@@ -56,6 +56,7 @@ class Catalog {
                             println("Позиция пуста")
                             continue
                         }
+                        if (person == "") continue
                         println(person.greeting())
                         continue
                     } catch (e: Exception) {
@@ -64,6 +65,7 @@ class Catalog {
                             println("Позиция пуста")
                             continue
                         }
+                        if (person == "") continue
                         println(person.greeting())
                         continue
                     }
